@@ -1,0 +1,33 @@
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/button_blinds_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/button_blind_up"
+            android:contentDescription="@string/image_button" />
+        <ImageButton
+            android:id="@+id/button_blinds_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/button_blind_down"
+            android:contentDescription="@string/image_button" />
+        <ImageButton
+            android:id="@+id/button_blinds_up_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/button_blind_selector"
+            android:contentDescription="@string/image_button" />
+    </LinearLayout>
+</merge>

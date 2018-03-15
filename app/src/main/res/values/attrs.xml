@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZoomEngine">
+        <attr name="hasClickableChildren" format="boolean"/>
+        <attr name="overScrollable" format="boolean"/>
+        <attr name="overScrollHorizontal" format="boolean"/>
+        <attr name="overScrollVertical" format="boolean"/>
+        <attr name="overPinchable" format="boolean"/>
+        <attr name="posTopLeft" format="boolean"/>
+        <attr name="minZoom" format="float"/>
+        <attr name="maxZoom" format="float"/>
+        <attr name="initialZoom" format="float"/>
+        <attr name="minZoomType" format="enum">
+            <enum name="zoom" value="0"/>
+            <enum name="realZoom" value="1"/>
+        </attr>
+        <attr name="maxZoomType" format="enum">
+            <enum name="zoom" value="0"/>
+            <enum name="realZoom" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ZoomScrollbarsLayout">
+        <attr name="drawScrollbars" format="boolean"/>
+        <attr name="fadeScrollbars" format="boolean"/>
+        <attr name="sizeScrollbars" format="dimension"/>
+        <attr name="sbBackgroundColor" format="color" />
+        <attr name="sbIndicatorColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="Scrollbar">
+        <attr name="vertical" format="boolean" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+
+</resources>

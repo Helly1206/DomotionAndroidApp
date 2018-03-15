@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_devices"
+            android:icon="@drawable/ic_lightbulb_outline_black"
+            android:title="@string/nav_devices" />
+        <item
+            android:id="@+id/nav_controls"
+            android:icon="@drawable/ic_settings_remote_black"
+            android:title="@string/nav_controls" />
+        <item
+            android:id="@+id/nav_timers"
+            android:icon="@drawable/ic_timer_black"
+            android:title="@string/nav_timers" />
+        <item
+            android:id="@+id/nav_holidays"
+            android:icon="@drawable/ic_people_outline_black"
+            android:title="@string/nav_holidays" />
+    </group>
+
+</menu>

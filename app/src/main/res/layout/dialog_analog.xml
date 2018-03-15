@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingEnd="20dp"
+    android:paddingStart="20dp">
+
+    <EditText
+        android:id="@+id/edit_dialog_analog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="4"
+        android:inputType="numberDecimal|numberSigned"
+        android:labelFor="@id/edit_dialog_analog" />
+
+    <ImageButton
+        android:id="@+id/button_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/image_button"
+        app:srcCompat="@drawable/button_value_up" />
+
+    <ImageButton
+        android:id="@+id/button_down"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:background="@null"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/image_button"
+        app:srcCompat="@drawable/button_value_down" />
+
+</LinearLayout>

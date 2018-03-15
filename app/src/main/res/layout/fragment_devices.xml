@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.helly.domotion.DevicesFragment">
+
+    <com.helly.domotion.ZoomLayout.ZoomScrollbarsLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sbBackgroundColor="@color/colorScrollBack"
+        app:sbIndicatorColor="@color/colorScrollIndicator"
+        app:drawScrollbars="true"
+        app:fadeScrollbars="true"
+        app:sizeScrollbars="3dp">
+
+        <com.helly.domotion.ZoomLayout.ZoomLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:overScrollHorizontal="false"
+            app:overScrollVertical="false"
+            app:posTopLeft="true"
+            app:overPinchable="true"
+            app:initialZoom="0.4"
+            app:minZoom="0.4"
+            app:minZoomType="realZoom"
+            app:maxZoom="2.0"
+            app:maxZoomType="realZoom"
+            app:hasClickableChildren="true">
+
+            <TableLayout
+                android:id="@+id/DevicesTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TableLayout>
+        </com.helly.domotion.ZoomLayout.ZoomLayout>
+    </com.helly.domotion.ZoomLayout.ZoomScrollbarsLayout>
+
+    <TableLayout
+        android:id="@+id/DevicesNoConnTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+    </TableLayout>
+
+</FrameLayout>

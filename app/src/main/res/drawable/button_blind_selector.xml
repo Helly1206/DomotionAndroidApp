@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/blindsopen48"
+        android:state_selected="false"
+        android:state_pressed="false" />
+    <item
+        android:state_selected="false"
+        android:state_pressed="true" >
+        <bitmap
+            android:src="@drawable/blindsopen48"
+            android:alpha="0.5">
+        </bitmap>
+    </item>
+    <item
+        android:drawable="@drawable/blinds48"
+        android:state_selected="true"
+        android:state_pressed="false" />
+    <item
+        android:state_selected="true"
+        android:state_pressed="true" >
+        <bitmap
+            android:src="@drawable/blinds48"
+            android:alpha="0.5">
+        </bitmap>
+    </item>
+</selector>
